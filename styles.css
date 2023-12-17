@@ -1,0 +1,53 @@
+body {
+    background-color: #FAF3F0;
+  }
+  
+  .bg-l-pink {
+    background-color: #F8E8EE;
+  }
+  
+  * {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .fp {
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .f-400 {
+    font-weight: 400;
+  }
+  
+  .f-500 {
+    font-weight: 500;
+  }
+  
+  .f-600 {
+    font-weight: 600;
+  }
+  
+  .f-700 {
+    font-weight: 700;
+  }
+  
+  .text-pink {
+    color: #D14D72;
+  }
+  
+  .main-img {
+    width: 25rem;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .skill-item {
+    width: 4rem;
+    margin: 0.5rem;
+  }
+  
+  .project-img {
+    display: inline-block;
+    height: 10rem;
+  }

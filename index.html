@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="The portfolio of Shruthi"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ed681c56b9.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Shruthi Venkatesan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="App vh-100 overflow-y-auto">
+
+        <!-- Header -->
+        <div class="bg-l-pink">
+            <div class="d-flex justify-content-around py-3">
+                <a href="#about" class="text-decoration-none text-secondary">About</a>
+                <a href="#skills" class="text-decoration-none text-secondary">Skills</a>
+                <a href="#projects" class="text-decoration-none text-secondary">Projects</a>
+                <a href="#contact" class="text-decoration-none text-secondary">Contact</a>
+            </div>
+            <div class="d-flex flex-column align-items-center p-5">
+                <img src="assets/main-img.svg" class="main-img mt-3" alt="Main image" />
+                <h1 class="fp text-pink text-center display-1 mt-3">And...<br/>It's Shruthi!</h1>
+                <p class="mb-3">A software developer</p>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div id="about" class="p-5">
+            <h1 class="fp text-pink">About</h1>
+            <p class="text-justify">Aspiring software engineer with a strong foundation in computer science and a passion for problem-solving. Seeking an
+entry-level position in a software company to contribute my skills and knowledge while gaining valuable industry
+experience</p>
+        </div>
+
+        <!-- Skills -->
+        <div id="skills" class="p-5">
+            <h1 class="fp text-pink">What I know?</h1>
+            <div class="d-flex flex-wrap justify-content-between mt-4">
+                <img src="assets/html-5.png" alt="html" class="skill-item" />
+                <img src="assets/css-3.png" alt="html" class="skill-item" />
+                <img src="assets/js.png" alt="html" class="skill-item" />
+                <img src="assets/c.png" alt="html" class="skill-item" />
+                <img src="assets/java.png" alt="html" class="skill-item" />
+                <img src="assets/angular.png" alt="html" class="skill-item" />
+                <img src="assets/mysql.png" alt="html" class="skill-item" />
+                <img src="assets/git.png" alt="html" class="skill-item" />
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects" class="p-5">
+            <h1 class="fp text-pink">What I did?</h1>
+            <div class="d-flex justify-content-center overflow-auto">
+                
+                <div class="rounded-4 bg-white p-3 col-12 col-lg-3 m-3">
+                    <img style="background-image: url('./assets/project2.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center center;" class="w-100 bg-secondary project-img" />
+                    <h3 class="f-600 mt-3">Car Sales Management</h3>
+                    <p class="text-justify">The Car Sales Management Web App is a valuable tool for car dealerships seeking a modern, efficient, and organized system to manage their inventory and streamline the sales process. With its intuitive interface and robust features, the app enhances the overall sales management experience.</p>
+                </div>
+                <div class="rounded-4 bg-white p-3 col-12 col-lg-3 m-3">
+                    <img style="background-image: url('./assets/project1.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;" class="w-100 bg-secondary project-img" />
+                    <h3 class="f-600 mt-3">Personal Reminder</h3>
+                    <p class="text-justify">The Note Reminder App is perfect for individuals who seek a straightforward yet powerful tool for managing their daily tasks and ideas. Its seamless integration of note-taking and reminder features sets it apart, providing a holistic solution for staying organized in a busy world.</p>
+                </div>
+                <div class="rounded-4 bg-white p-3 col-12 col-lg-3 m-3">
+                    <img style="background-image: url('./assets/project3.png'); background-size: contain; background-repeat: no-repeat; background-position: center center;" class="w-100 bg-secondary project-img" />
+                    <h3 class="f-600 mt-3">Ad Sales Activation</h3>
+                    <p class="text-justify">Utilized Appian's low-code capabilities to develop a custom
+                        workflow that automated and enhanced ad sales processes,
+                        resulting in a increased efficiency and reduced manual
+                        intervention.
+                        Designed and implemented user-friendly interfaces,
+                        leveraging Appian's interface design tools to ensure a
+                        seamless and intuitive user experience.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="contact" class="p-5 text-bg-dark d-flex justify-content-around">
+            <a href="mailto:shruthikalai22@gmail.com" class="text-light display-5"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/shruthivenkatesan22/" class="text-light display-5"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ShruthiVenkatesan22" class="text-light display-5"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</body>
+</html>
